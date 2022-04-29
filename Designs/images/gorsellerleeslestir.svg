@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70" height="50" viewBox="0 0 70 50">
+  <g id="gorsellerleeslestir" transform="translate(-4612.734 -1368.89)">
+    <rect id="Rectangle_4078" data-name="Rectangle 4078" width="35" height="11" transform="translate(4647.734 1368.89)" fill="#ffc400"/>
+    <rect id="Rectangle_4079" data-name="Rectangle 4079" width="35" height="39" transform="translate(4647.734 1379.89)" fill="#ffe6b3"/>
+    <rect id="Rectangle_4080" data-name="Rectangle 4080" width="35" height="39" transform="translate(4612.734 1379.89)" fill="#fff"/>
+    <rect id="Rectangle_4081" data-name="Rectangle 4081" width="35" height="11" transform="translate(4612.734 1368.89)" fill="#f68250"/>
+    <path id="Path_16168" data-name="Path 16168" d="M85.81,258.346H71.293a2.014,2.014,0,0,1-2.014-2.014V239.924a2.014,2.014,0,0,1,2.014-2.014H85.81a2.014,2.014,0,0,1,2.014,2.014v16.408A2.014,2.014,0,0,1,85.81,258.346Z" transform="translate(4551.286 1150.665)" fill="#3dc285"/>
+    <g id="Group_4008" data-name="Group 4008" transform="translate(4653.822 1388.575)">
+      <path id="Path_16169" data-name="Path 16169" d="M288.057,247.544h-18.24a2.15,2.15,0,0,1,0-4.3h18.24a2.15,2.15,0,0,1,0,4.3Z" transform="translate(-267.668 -243.245)" fill="#596c76"/>
+      <path id="Path_16170" data-name="Path 16170" d="M288.057,310.207h-18.24a2.15,2.15,0,1,1,0-4.3h18.24a2.15,2.15,0,0,1,0,4.3Z" transform="translate(-267.668 -297.839)" fill="#596c76"/>
+      <path id="Path_16171" data-name="Path 16171" d="M288.057,372.871h-18.24a2.15,2.15,0,0,1,0-4.3h18.24a2.15,2.15,0,0,1,0,4.3Z" transform="translate(-267.668 -352.435)" fill="#596c76"/>
+    </g>
+  </g>
+</svg>
