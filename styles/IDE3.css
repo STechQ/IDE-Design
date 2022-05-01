@@ -30,7 +30,8 @@ body{
 }
 
 .bottom-icons {
-    padding-top: 653px;
+    margin-right: 8px;
+    margin-bottom: 10px;
 }
 
 .home-icon {
@@ -198,11 +199,6 @@ input[type="search"]::placeholder {
     margin: 10px;
 }
 
-.dashboard-container:hover, .bulleted-container:hover {
-    background-color: #DEE1E2;
-    border-radius: 4px;
-}
-
 .filter-icons-container {
     display: flex;
     align-items: center;
@@ -210,14 +206,6 @@ input[type="search"]::placeholder {
     background-color: #fff;
     height: 46px;
     color: #909090;
-}
-
-.dashboard-icon:hover {
-    color:#212121 ;
-}
-
-.bulleted-icon:hover {
-    color:#212121 ;
 }
 
 .card-filters {

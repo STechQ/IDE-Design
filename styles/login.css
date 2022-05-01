@@ -5,8 +5,8 @@ body{
 }
 
 .login-background {
-    width: 1205px;
-    height: 1080px;
+    width: 60%;
+    height: 100vh;
 }
 
 .login-container {
@@ -14,13 +14,12 @@ body{
 }
 
 .form-logo{
-    position: absolute;
-    top: 219px;
-    left: 1425px;
+    display: flex;
+    align-items: center;
+    margin-top: 219px;
     width: 276px;
     height: 49px;
-    margin-bottom: 219px;
-    margin-left: 114px;
+    margin-left: 270px;
 }
 
 .login-text-container{
@@ -51,18 +50,12 @@ body{
 }
 
 .form-content {
-    margin-top: 327px;
-    margin-left: 153px;
-    margin-right: 152px;
-    width: 410px;
-    height: 472px;
-    opacity: 1;
+    margin-top: 60px;
+    margin-left: 200px;
 }
 
-input[type=email], input[type=text], input[type=password] {
+input[type=text], input[type=password] {
     width: 100%;
-    height: 48px;
-    margin-bottom: 28px;
     background-color: #EEEEEE;
     border-radius: 4px;
     border: none;
@@ -72,7 +65,14 @@ input[type=email], input[type=text], input[type=password] {
     letter-spacing: 0px;
     color: #212121;
     opacity: 1;
-    padding-left: 42px;
+}
+
+.input-style {
+    border: none;
+    background-color: #EEEEEE;
+    padding-top: 0.375rem;
+    padding-bottom: 0.375rem;
+    padding-left: 0.75rem;
 }
 
 .forgot-password-text {
@@ -94,39 +94,8 @@ input[type=email], input[type=text], input[type=password] {
     margin-bottom: 52px;
 }
 
-.form-container {
-    margin-left: 5.5%;
-}
-
-.lock {
-    position: absolute;
-    top: 616.5px;
-    left: 1486px;
-}
-.eye {
-    position: absolute;
-    top: 619px;
-    left: 1847px; 
-    float: right; 
-}
-
-.mail{
-    position: absolute;
-    left: 1486px;
-    top: 466px;
-}
-
-.domain {
-    position: absolute;
-    left: 1486px;
-    top: 541px;
-}
-
-.chevron-down {
-    position: absolute;
-    top: 544px;
-    left: 1847px;   
-    float: right;
+.eye, .chevron-down {
+    margin-right: 10px;
 }
 
 .login-button {
