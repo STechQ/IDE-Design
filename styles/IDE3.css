@@ -23,8 +23,18 @@ body{
     top: 0;
     left: 0;
     background-color: #151233;
+    z-index: 1;
 }
-  
+
+.nav-icons {
+    display: flex;
+}
+
+#inside-logo {
+    margin-left: 38px;
+    margin-top: 8px;
+}
+
 .page-content {
     margin-left: 3.5rem;
 }
@@ -42,6 +52,14 @@ body{
 
 .vertical-icons {
     color: #ffffff;
+}
+
+.vertical-icons-text {
+    margin-top: 8px;
+    margin-left: 5px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 .vertical-icons-containers{
