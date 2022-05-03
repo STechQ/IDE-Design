@@ -19,62 +19,74 @@
     <div class="vertical-nav" id="sidebar">
         <div class="grid-icon">
             <div class="nav-icons">
-                <div class="vertical-icons-containers">
+                <div class="vertical-dot-icon">
                     <i class="mdi mdi-dots-grid mdi-24px vertical-icons"></i>
                 </div>
                 <img src="images/plateau_logo-red.svg" alt="" width="205" height="36" id="inside-logo">
             </div>
         </div>
 
-        <div class="py-2">
+        <div class="py-1">
             <div class="nav-icons">
-                <div class="vertical-icons-containers">
-                    <i class="mdi mdi-home-outline home-icon"></i>
+                <div class="wrapper">
+                    <div class="vertical-icons-containers">
+                        <i class="mdi mdi-home-outline home-icon"></i>
+                    </div>
+                    <p class="vertical-icons-text">Homepage</p>
                 </div>
-                <p class="vertical-icons-text">Homepage</p>
             </div>
         </div>
 
-        <div class="py-2">
+        <div class="py-1">
             <div class="nav-icons">
-                <div class="vertical-icons-containers">
-                    <i class="mdi mdi-application-brackets-outline mdi-24px vertical-icons"></i>
+                <div class="wrapper">
+                    <div class="vertical-icons-containers">
+                        <i class="mdi mdi-application-brackets-outline mdi-24px vertical-icons"></i>
+                    </div>
+                    <p class="vertical-icons-text">Applications</p>
                 </div>
-                <p class="vertical-icons-text">Applications</p>
             </div>
         </div>
 
-        <div class="py-2">
+        <div class="py-1">
             <div class="nav-icons">
-                <div class="vertical-icons-containers">
-                    <i class="mdi mdi-account-lock-outline mdi-24px vertical-icons"></i>
+                <div class="wrapper">
+                    <div class="vertical-icons-containers">
+                        <i class="mdi mdi-account-lock-outline mdi-24px vertical-icons"></i>
+                    </div>
+                    <p class="vertical-icons-text">Plateau Authorization</p>
                 </div>
-                <p class="vertical-icons-text">Plateau Authorization</p>
             </div>
         </div>
 
-        <div class="py-2">
+        <div class="py-1">
             <div class="nav-icons">
-                <div class="vertical-icons-containers">
-                    <i class="mdi mdi-file-document-multiple-outline mdi-24px vertical-icons"></i>
+                <div class="wrapper">
+                    <div class="vertical-icons-containers">
+                        <i class="mdi mdi-file-document-multiple-outline mdi-24px vertical-icons"></i>
+                    </div>
+                    <p class="vertical-icons-text">Plateau Documentation</p>
                 </div>
-                <p class="vertical-icons-text">Plateau Documentation</p>
             </div>
         </div>
 
         <div class="bottom-icons position-absolute bottom-0">
-            <div class="py-1 nav-icons">
-                <div class="vertical-icons-containers">
-                    <i class="mdi mdi-help-circle mdi-24px vertical-icons"></i>
+            <div class="nav-icons" style="width: 100%;">
+                <div class="wrapper">
+                    <div class="vertical-icons-containers">
+                        <i class="mdi mdi-help-circle mdi-24px vertical-icons"></i>
+                    </div>
+                    <p class="vertical-icons-text">Help</p>
                 </div>
-                <p class="vertical-icons-text">Help</p>
             </div>
 
-            <div class="py-1 nav-icons">
-                <div class="vertical-icons-containers">
-                    <i class="mdi mdi-logout mdi-24px vertical-icons"></i>
+            <div class="nav-icons">
+                <div class="wrapper">
+                    <div class="vertical-icons-containers">
+                        <i class="mdi mdi-logout mdi-24px vertical-icons"></i>
+                    </div>
+                    <p class="vertical-icons-text">Logout</p>
                 </div>
-                <p class="vertical-icons-text">Logout</p>
             </div>
         </div>
     </div>
@@ -675,6 +687,10 @@
         gridIcon.addEventListener("click", () => {
             for (let icon of verticalNavTexts) { 
                 if(icon.style.display === "none") {
+                    // verticalNav.style = "-webkit-transition: width .5s ease-in-out;";
+                    // verticalNav.style = "-moz-transition: width .5s ease-in-out;";
+                    // verticalNav.style = "-o-transition: width .5s ease-in-out;";
+                    // verticalNav.style = "transition: width .5s ease-in-out;";
                     verticalNav.style.width = "321px";
                     icon.style.display = "block";
                     insideLogo.style.display = "block";
