@@ -24,13 +24,14 @@ body{
 
 .menu {
     background-color: #2F3160 !important;
-    width: 248px !important;
+    width: 223px !important;
 }
 
 .menu-item {
     color: #fff !important;
     font-weight: 600 !important;
-    margin-bottom: 8px;
+    margin-bottom: 4px;
+    font-size: 12px;
 }
 
 .menu-item:hover {
@@ -65,13 +66,17 @@ body{
 }
 
 .middle-container {
-    margin-left: -65px;
+    margin-left: -25px;
     margin-top: 14px;
 }
 
 .tab-item {
-    margin-right: 50px;
+    margin-right: 12px;
     cursor: pointer;
+}
+
+.tab-texts {
+    font-size: 14px;
 }
 
 .close-icon {
@@ -94,7 +99,7 @@ span {
 }
 
 .user {
-    font-size: 50px;
+    font-size: 40px;
     color: red;
 }
 
@@ -108,6 +113,7 @@ span {
 
 .play-button {
     background-color: #1B998B !important;
+    border: 1px solid #1B998B !important;
 }
 
 .vertical-dots {
@@ -118,19 +124,20 @@ span {
 
 .export-button, .deploy-button {
     background-color: #fff;
+    border: 1px solid #000;
 }
 
 .menu-export {
-    width: 330px;
-    height: 288px;
+    width: 280px;
+    height: 250px;
     border: 1px solid #000 !important;
-    padding: 3px !important;
-    margin-top: 5px !important;
+    padding: 2px !important;
+    margin-top: 3px !important;
 }
 
 .export-menu-items {
-    margin: 15px 18px 15px 3px;
-    padding-bottom: 5px !important;
+    margin: 10px 13px 10px 0;
+    padding-bottom: 1px !important;
 }
 
 .export-menu-items:hover{
@@ -139,14 +146,18 @@ span {
 
 .export-menu-icon {
     color: #757575;
-    margin-top: 8px;
-    margin-right: 15px;
+    margin-top: 4px;
+    margin-right: 5px;
 }
 
 .export-menu-text {
     color: #212121;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
+}
+
+.export-menu-description {
+    font-size: 13px;
 }
 
 .export-text, .deploy-text {
@@ -157,7 +168,7 @@ span {
 .view-jobs {
     display: flex;
     justify-content: center;
-    font-size: 20px;
+    font-size: 16px;
     color: #14ADFC;
     font-weight: 700;
 }
@@ -170,7 +181,7 @@ span {
 }
 
 .menu-icon, .bottom-two {
-    margin-top: 16px;
+    margin-top: 4px;
     color: #2F3160;
     cursor: pointer;
     padding-left:5px;
@@ -184,7 +195,6 @@ span {
     color: #2F3160;
     font-size: 20px;
     font-weight: 600;
-    
 }
 
 .menu-icon-container {
@@ -195,15 +205,231 @@ span {
 .bottom-icons {
     display: flex;
     justify-content: center;
+    font-size: 30px;
 }
 
 .arrow-left {
-    margin-top: 16px;
+    margin-top: 4px;
     color: #6F749F;
 }
 
 .bottom-two:hover {
     background-color: #D0D1E9;
     border-radius: 4px;
+}
+
+.vertical-nav-expanded {
+    height: 100vh;
+    width: 335px;
+    background-color: #fff;
+    border: 1px solid #D5D5D5;
+}
+
+.expanded-menu-container {
+    margin: 8px;
+}
+
+.explorer-text-expanded {
+    color: #2F3160;
+    font-size: 18px;
+    font-weight: 650;
+    margin-top: 3px;
+}
+
+.explorer-container {
+    display: flex;
+}
+
+.chevron-left {
+    margin-left: 210px;
+    font-size: 30px;
+    cursor: pointer;
+    margin-top: -10px;
+}
+
+input[type="search"] {
+    border: 1px solid #BCBCBC;
+    border-radius: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    width: 100%;
+    font-size: 18px;
+    padding-left: 33px;
+    margin-right: 25px;
+}
+
+input[type="search"]::placeholder {
+    color: #909090;
+    font-size: 14px;
+}
+
+.search-icon {
+    position: absolute;
+    margin-left: 8px;
+    font-size: 23px;
+    color: #909090;
+}
+
+.chips-container {
+    display: flex;
+    margin-top: 12px;
+    margin-left: 8px;
+    margin-bottom: 20px;
+}
+
+.chip {
+    border-radius: 16px;
+    border: none;
+    margin-right: 3px;
+    color: #fff;
+    padding: 1px 12px 1px 12px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.chip1 {
+    background-color: #449DD1;
+}
+
+.chip2 {
+    background-color:  #E9724C;
+}
+
+.chip3 {
+    background-color: #007C77;
+}
+
+.chip-icons {
+    color: #fff;
+    margin-right: 2px;
+}
+
+.up-icon {
+    display: flex;
+    margin-top: -19px;
+    color:  #757575;
+    font-size: 18px;
+}
+
+.down-icon {
+    color:  #757575;
+    font-size: 18px;
+}
+
+.up-down-icons {
+    margin-left: 10px;
+}
+
+ul, #myUL {
+    list-style-type: none;
+}
+  
+#myUL {
+  margin: 0;
+  padding: 0;
+}
+
+.caret {
+  cursor: pointer;
+  user-select: none; 
+}
+
+.caret::before {
+  display: inline-block;
+  margin-right: 2px;
+}
+
+.caret-down::before {
+  transform: rotate(90deg);
+}
+
+.nested {
+  display: none;
+  margin-left: -23px;
+  margin-bottom: 5px;
+}
+
+.active {
+  display: block;
+  margin-top: 5px;
+}
+
+.menu-right-icon {
+    color: #BCBCBC;
+}
+
+.inside-folder {
+    margin-left: 4px;
+    margin-top: 5px;
+}
+
+.tree-db-icon {
+    color: #E9724C;
+}
+
+.tree-page-icon {
+    color: #449DD1;
+}
+
+.tree-process-icon {
+    color: #007C77;
+}
+
+.tree-icons {
+    margin-right: 4px;
+}
+
+.tree-items {
+    margin-bottom: 5px;
+    color: #757575;
+}
+
+.tree-text {
+    color: #212121;
+}
+
+.tree-dot {
+    padding-left: 130px;
+}
+
+.plus-1 {
+    margin-left: 151px;
+}
+
+.plus-2 {
+    margin-left: 161px;
+}
+
+.plus-3 {
+    margin-left: 145px;
+}
+
+.vertical-bottom-container {
+    width: inherit;
+    margin-bottom: 5px;
+}
+.vertical-bottom-text {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    background-color: #D0D1E9;
+    margin-bottom: 10px;
+}
+
+.new-module-text {
+    padding: 4px 0 4px 0;
+    margin: 0;
+    color: #151233;
+    font-weight: 700;
+}
+
+.icons-end {
+    font-size: 28px;
+}
+
+.end-arrow {
+    margin-right: 206px;
+    margin-left: 10px;
 }
 
