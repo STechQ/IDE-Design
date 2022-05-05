@@ -18,7 +18,6 @@
 <body>
     <div class="top-menu">
         <div class="row">
-
             <div class="col-1">
                 <div class="corner-container">
                     <div class="logo-container">
@@ -77,111 +76,240 @@
             </div>
         </div>
     </div>
-
-    <div class="vertical-nav">
-        <div class="menu-icon-container">
-            <i class="mdi mdi-menu mdi-24px menu-icon"></i>
-        </div>
-        <div>
-            <p class="explorer-text">EXPLORER</p>
-        </div>
-        <div class="bottom-icons-container position-absolute bottom-0 p-1">
-            <div>
-                <i class="mdi mdi-account-lock bottom-two bottom-icons"></i>
-            </div>
-            <div>
-                <i class="mdi mdi-cog bottom-two bottom-icons"></i>
-            </div>
-            <div>
-                <i class="mdi mdi-arrow-left-bottom arrow-left bottom-icons"></i>
-            </div>
-        </div>
-    </div>
-
-    <div class="vertical-nav-expanded">
-        <div class="expanded-menu-container">
-            <div class="explorer-container">
-                <p class="explorer-text-expanded">EXPLORER</p>
-                <i class="mdi mdi-chevron-left chevron-left"></i>
-            </div>
-
-            <div class="search-bar-container">
-                <i class="mdi mdi-magnify search-icon"></i>
-                <input type="search" placeholder="Search"></input>
-            </div>
-
-            <div class="chips-container">
-                <button type="button" class="chip chip1"><i class="mdi mdi-code-not-equal-variant chip-icons"></i>Pages</button>
-                <button type="button" class="chip chip2"><i class="mdi mdi-database chip-icons"></i>Domains</button>
-                <button type="button" class="chip chip3"><i class="mdi mdi-file-tree chip-icons"></i>Processes</button>
-                <div class="up-down-icons">
-                    <i class="mdi mdi-chevron-down down-icon"></i>
-                    <i class="mdi mdi-chevron-up up-icon"></i>
+    <div class="contaier">
+        <div class="row">
+            <div class="col-3">
+                <div class="vertical-nav">
+                    <div class="menu-icon-container">
+                        <i class="mdi mdi-menu mdi-24px menu-icon"></i>
+                    </div>
+                    <div>
+                        <p class="explorer-text">EXPLORER</p>
+                    </div>
+                    <div class="bottom-icons-container position-absolute bottom-0 p-1">
+                        <div>
+                            <i class="mdi mdi-account-lock bottom-two bottom-icons"></i>
+                        </div>
+                        <div>
+                            <i class="mdi mdi-cog bottom-two bottom-icons"></i>
+                        </div>
+                        <div>
+                            <i class="mdi mdi-arrow-left-bottom arrow-left bottom-icons"></i>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="vertical-nav-expanded">
+                    <div class="expanded-menu-container">
+                        <div class="explorer-container">
+                            <p class="explorer-text-expanded">EXPLORER</p>
+                            <i class="mdi mdi-chevron-left chevron-left"></i>
+                        </div>
+            
+                        <div class="search-bar-container">
+                            <i class="mdi mdi-magnify search-icon"></i>
+                            <input type="search" placeholder="Search"></input>
+                        </div>
+            
+                        <div class="chips-container">
+                            <button type="button" class="chip chip1"><i class="mdi mdi-code-not-equal-variant chip-icons"></i>Pages</button>
+                            <button type="button" class="chip chip2"><i class="mdi mdi-database chip-icons"></i>Domains</button>
+                            <button type="button" class="chip chip3"><i class="mdi mdi-file-tree chip-icons"></i>Processes</button>
+                            <div class="up-down-icons">
+                                <i class="mdi mdi-chevron-down down-icon"></i>
+                                <i class="mdi mdi-chevron-up up-icon"></i>
+                            </div>
+                        </div>
+                        <ul id="myUL">
+                            <li class="tree-items"><i class="mdi mdi-menu-right menu-right-icon caret"></i><span><i class="mdi mdi-puzzle tree-icons"></i>Module Name1</span></li>
+                            <li class="tree-items"><i class="mdi mdi-menu-right menu-right-icon caret"></i><span><i class="mdi mdi-puzzle tree-icons"></i>Module Name2</span></li>
+                            <li class="tree-items"><i class="mdi mdi-menu-right menu-right-icon caret"></i><span class="tree-text"><i class="mdi mdi-puzzle tree-icons"></i>Module Name3<i class="mdi mdi-plus plus-1" class="dropdown-toggle" id="dropdownMenuButton0" data-bs-toggle="dropdown" aria-expanded="false"></i>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton0">
+                                    <li><a class="dropdown-item" href="#"><i class="mdi mdi-folder-open"></i> Folder</a></li>
+                                    <li><a class="dropdown-item" href="#"><i class="mdi mdi-code-not-equal-variant tree-page-icon"></i> Page</a></li>
+                                    <li><a class="dropdown-item" href="#"><i class="mdi mdi-database tree-db-icon"></i> Domain</a></li>
+                                    <li><a class="dropdown-item" href="#"><i class="mdi mdi-file-tree tree-process-icon"></i> Process</a></li>
+                                </ul>
+                            </span>
+                                <ul class="nested">
+                                <li class="tree-items"><i class="mdi mdi-menu-right menu-right-icon caret"></i><span class="tree-text"><i class="mdi mdi-folder-open tree-icons"></i>Folder Name<i class="mdi mdi-plus plus-2" class="dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"></i>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                        <li><a class="dropdown-item" href="#"><i class="mdi mdi-folder-open"></i> Folder</a></li>
+                                        <li><a class="dropdown-item" href="#"><i class="mdi mdi-code-not-equal-variant tree-page-icon"></i> Page</a></li>
+                                        <li><a class="dropdown-item" href="#"><i class="mdi mdi-database tree-db-icon"></i> Domain</a></li>
+                                        <li><a class="dropdown-item" href="#"><i class="mdi mdi-file-tree tree-process-icon"></i> Process</a></li>
+                                    </ul>
+                                </span>
+                                    <ul class="nested inside-folder">
+                                    <li class="tree-items"><i class="mdi mdi-code-not-equal-variant tree-page-icon tree-icons"></i><span class="tree-text">Page2.qjson</span></li>
+                                    <li class="tree-items"><i class="mdi mdi-code-not-equal-variant tree-page-icon tree-icons"></i><span class="tree-text">deneme.qjson</span></li>
+                                    <li class="tree-items"><i class="mdi mdi-code-not-equal-variant tree-page-icon tree-icons"></i><span class="tree-text">Page3.qjson </span><i class="mdi mdi-arrow-bottom-right-bold-outline"></i><i class="mdi mdi-dots-horizontal tree-dot" class="dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"></i>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                            <li><a class="dropdown-item" href="#"><i class="mdi mdi-history"></i> History</a></li>
+                                            <li><a class="dropdown-item" href="#"><i class="mdi mdi-arrow-top-left-bold-outline"></i> Check In</a></li>
+                                            <li><a class="dropdown-item" href="#"><i class="mdi mdi-tray-arrow-up"></i> Publish</a></li>
+                                            <li><a class="dropdown-item" href="#"><i class="mdi mdi-content-duplicate"></i> Duplicate</a></li>
+                                            <li><a class="dropdown-item list-group-item-danger" href="#"><i class="mdi mdi-delete-outline"></i> Delete</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="tree-items"><i class="mdi mdi-database tree-db-icon tree-icons"></i><span class="tree-text">Atahan_entity.dm</span></li>
+                                    <li class="tree-items"><i class="mdi mdi-database tree-db-icon tree-icons"></i><span class="tree-text">Atahan2_entity.dm</span></li>
+                                    <li class="tree-items"><i class="mdi mdi-database tree-db-icon tree-icons"></i><span class="tree-text">Atahan3_entity.dm</span></li>
+                                    <li class="tree-items"><i class="mdi mdi-file-tree tree-process-icon tree-icons"></i><span class="tree-text">Atahan_process.js</span></li>
+                                    <li class="tree-items"><i class="mdi mdi-file-tree tree-process-icon tree-icons"></i><span class="tree-text">Atahan2_process.js</span></li>
+                                  </ul>
+                                </li>
+                              </ul>
+                            </li>
+                            <li class="tree-items"><i class="mdi mdi-menu-right menu-right-icon caret"></i><i class="mdi mdi-puzzle tree-icons"></i>Another Module<i class="mdi mdi-plus plus-3" class="dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"></i></span>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item" href="#"><i class="mdi mdi-folder-open"></i> Folder</a></li>
+                                    <li><a class="dropdown-item" href="#"><i class="mdi mdi-code-not-equal-variant tree-page-icon"></i> Page</a></li>
+                                    <li><a class="dropdown-item" href="#"><i class="mdi mdi-database tree-db-icon"></i> Domain</a></li>
+                                    <li><a class="dropdown-item" href="#"><i class="mdi mdi-file-tree tree-process-icon"></i> Process</a></li>
+                                </ul>
+                            </li>
+                            <li class="tree-items"><i class="mdi mdi-menu-right menu-right-icon caret"></i><span><i class="mdi mdi-puzzle tree-icons"></i>Module Name4</span></li>
+                        </ul>
+                    </div>
+                    <div class="vertical-bottom-container position-absolute bottom-0">
+                        <div class="vertical-bottom-text">
+                            <p class="new-module-text"><i class="mdi mdi-plus"></i> Create New Module</p>
+                        </div>
+                        <div class="vertical-bottom-icons">
+                            <i class="mdi mdi-arrow-left-bottom arrow-left icons-end end-arrow"></i>
+                            <i class="mdi mdi-account-lock bottom-two icons-end"></i>
+                            <i class="mdi mdi-cog bottom-two icons-end"></i>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <ul id="myUL">
-                <li class="tree-items"><i class="mdi mdi-menu-right menu-right-icon caret"></i><span><i class="mdi mdi-puzzle tree-icons"></i>Module Name1</span></li>
-                <li class="tree-items"><i class="mdi mdi-menu-right menu-right-icon caret"></i><span><i class="mdi mdi-puzzle tree-icons"></i>Module Name2</span></li>
-                <li class="tree-items"><i class="mdi mdi-menu-right menu-right-icon caret"></i><span class="tree-text"><i class="mdi mdi-puzzle tree-icons"></i>Module Name3<i class="mdi mdi-plus plus-1" class="dropdown-toggle" id="dropdownMenuButton0" data-bs-toggle="dropdown" aria-expanded="false"></i>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton0">
-                        <li><a class="dropdown-item" href="#"><i class="mdi mdi-folder-open"></i> Folder</a></li>
-                        <li><a class="dropdown-item" href="#"><i class="mdi mdi-code-not-equal-variant tree-page-icon"></i> Page</a></li>
-                        <li><a class="dropdown-item" href="#"><i class="mdi mdi-database tree-db-icon"></i> Domain</a></li>
-                        <li><a class="dropdown-item" href="#"><i class="mdi mdi-file-tree tree-process-icon"></i> Process</a></li>
-                    </ul>
-                </span>
-                    <ul class="nested">
-                    <li class="tree-items"><i class="mdi mdi-menu-right menu-right-icon caret"></i><span class="tree-text"><i class="mdi mdi-folder-open tree-icons"></i>Folder Name<i class="mdi mdi-plus plus-2" class="dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"></i>
-                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                            <li><a class="dropdown-item" href="#"><i class="mdi mdi-folder-open"></i> Folder</a></li>
-                            <li><a class="dropdown-item" href="#"><i class="mdi mdi-code-not-equal-variant tree-page-icon"></i> Page</a></li>
-                            <li><a class="dropdown-item" href="#"><i class="mdi mdi-database tree-db-icon"></i> Domain</a></li>
-                            <li><a class="dropdown-item" href="#"><i class="mdi mdi-file-tree tree-process-icon"></i> Process</a></li>
-                        </ul>
-                    </span>
-                        <ul class="nested inside-folder">
-                        <li class="tree-items"><i class="mdi mdi-code-not-equal-variant tree-page-icon tree-icons"></i><span class="tree-text">Page2.qjson</span></li>
-                        <li class="tree-items"><i class="mdi mdi-code-not-equal-variant tree-page-icon tree-icons"></i><span class="tree-text">deneme.qjson</span></li>
-                        <li class="tree-items"><i class="mdi mdi-code-not-equal-variant tree-page-icon tree-icons"></i><span class="tree-text">Page3.qjson </span><i class="mdi mdi-arrow-bottom-right-bold-outline"></i><i class="mdi mdi-dots-horizontal tree-dot" class="dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"></i>
-                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                <li><a class="dropdown-item" href="#"><i class="mdi mdi-history"></i> History</a></li>
-                                <li><a class="dropdown-item" href="#"><i class="mdi mdi-arrow-top-left-bold-outline"></i> Check In</a></li>
-                                <li><a class="dropdown-item" href="#"><i class="mdi mdi-tray-arrow-up"></i> Publish</a></li>
-                                <li><a class="dropdown-item" href="#"><i class="mdi mdi-content-duplicate"></i> Duplicate</a></li>
-                                <li><a class="dropdown-item list-group-item-danger" href="#"><i class="mdi mdi-delete-outline"></i> Delete</a></li>
-                            </ul>
-                        </li>
-                        <li class="tree-items"><i class="mdi mdi-database tree-db-icon tree-icons"></i><span class="tree-text">Atahan_entity.dm</span></li>
-                        <li class="tree-items"><i class="mdi mdi-database tree-db-icon tree-icons"></i><span class="tree-text">Atahan2_entity.dm</span></li>
-                        <li class="tree-items"><i class="mdi mdi-database tree-db-icon tree-icons"></i><span class="tree-text">Atahan3_entity.dm</span></li>
-                        <li class="tree-items"><i class="mdi mdi-file-tree tree-process-icon tree-icons"></i><span class="tree-text">Atahan_process.js</span></li>
-                        <li class="tree-items"><i class="mdi mdi-file-tree tree-process-icon tree-icons"></i><span class="tree-text">Atahan2_process.js</span></li>
-                      </ul>
-                    </li>
-                  </ul>
-                </li>
-                <li class="tree-items"><i class="mdi mdi-menu-right menu-right-icon caret"></i><i class="mdi mdi-puzzle tree-icons"></i>Another Module<i class="mdi mdi-plus plus-3" class="dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"></i></span>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                        <li><a class="dropdown-item" href="#"><i class="mdi mdi-folder-open"></i> Folder</a></li>
-                        <li><a class="dropdown-item" href="#"><i class="mdi mdi-code-not-equal-variant tree-page-icon"></i> Page</a></li>
-                        <li><a class="dropdown-item" href="#"><i class="mdi mdi-database tree-db-icon"></i> Domain</a></li>
-                        <li><a class="dropdown-item" href="#"><i class="mdi mdi-file-tree tree-process-icon"></i> Process</a></li>
-                    </ul>
-                </li>
-                <li class="tree-items"><i class="mdi mdi-menu-right menu-right-icon caret"></i><span><i class="mdi mdi-puzzle tree-icons"></i>Module Name4</span></li>
-            </ul>
-        </div>
-        <div class="vertical-bottom-container position-absolute bottom-0">
-            <div class="vertical-bottom-text">
-                <p class="new-module-text"><i class="mdi mdi-plus"></i> Create New Module</p>
-            </div>
-            <div class="vertical-bottom-icons">
-                <i class="mdi mdi-arrow-left-bottom arrow-left icons-end end-arrow"></i>
-                <i class="mdi mdi-account-lock bottom-two icons-end"></i>
-                <i class="mdi mdi-cog bottom-two icons-end"></i>
+            <div class="col-9 middle-section-container">
+                
+                    <div class="card head-card">
+                        <div class="card-body head-body">
+                            <div class="row">
+                                <div class="col-1">
+                                    <img src="images/is-bankasi-logo.jpg" alt="is-bankasi-logo" width="60" height="60" class="title-logo settings-logo">
+                                </div>
+                                <div class="col-11">
+                                    <h5 class="card-title">İş Leasing</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card bottom-card">
+                        <div class="card-body p-0">
+                            <div class="row remove-gutterx">
+                                <div class="col-2 left-section">
+                                    <a class="dropdown-item left-items" href="#"><i class="mdi mdi-cogs mdi-24px"></i> Lorem Ipsum</a>
+                                    <a class="dropdown-item left-items" href="#"><i class="mdi mdi-account-box-outline mdi-24px"></i> Dolor Sit</a>
+                                    <a class="dropdown-item left-items" href="#"><i class="mdi mdi-account-details mdi-24px"></i> Consectetur</a>
+                                    <a class="dropdown-item left-items" href="#"><i class="mdi mdi-gesture-tap mdi-24px"></i> Adipiscing</a>
+                                    <a class="dropdown-item left-items" href="#"><i class="mdi mdi-cloud-search mdi-24px"></i> Ut suscipit</a>
+                                    <a class="dropdown-item left-items" href="#"><i class="mdi mdi-earth mdi-24px"></i> Magna Ac</a>
+                                    <a class="dropdown-item left-items" href="#"><i class="mdi mdi-atom mdi-24px"></i> Sed Viverra</a>
+                                    <a class="dropdown-item left-items last-item" href="#"><i class="mdi mdi-sync mdi-24px"></i> Pellentesque</a>
+                                </div>
+                                <div class="col-10">
+                                    <div class="card-tabs p-4">
+                                        <h6 class="card-tab-items">Tab Item1</h6>
+                                        <h6 class="card-tab-items">Tab Item2</h6>
+                                        <h6 class="card-tab-items">Tab Item3</h6>
+                                        <h6 class="card-tab-items">Tab Item4</h6>
+                                    </div>
+
+                                    <div class="row m-0">
+                                        <div class="col-6 ps-4">
+                                            <h5 class="card-title">Lorem Ipsum</h5>
+                                            <h6 class="card-subtitle mb-2 text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h6>
+                                            <div class="switch-container pt-4">
+                                                <h6 class="switch-text1">Curabitur sed leo urna</h6>
+                                                <label class="switch">
+                                                    <input type="checkbox" checked>
+                                                    <span class="slider round"></span>
+                                                  </label>
+                                            </div> 
+                                            <div class="switch-container pt-4 pb-4">
+                                                <h6 class="switch-text2">Cras arcu lectus, sagittis quis purus</h6>
+                                                <label class="switch">
+                                                    <input type="checkbox">
+                                                    <span class="slider round"></span>
+                                                  </label>
+                                            </div> 
+                                            <div class="form-check pb-3">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    <h6 class="m-0">Neque porro quisquam</h6>
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                </label>
+                                            </div>
+                                            <div class="form-check pb-4">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                                <label class="form-check-label" for="flexCheckChecked">
+                                                    <h6 class="m-0">Neque porro quisquam</h6>
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                </label>
+                                            </div> 
+                                            
+                                            <h6>Praesent lobortis</h6>
+                                            <div class="radio-container">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                                    <label class="form-check-label" for="flexRadioDefault1">
+                                                        <p class="pe-3">Option 1</p>
+                                                    </label>
+                                                  </div>
+                                                  <div class="form-check">
+                                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                                    <label class="form-check-label" for="flexRadioDefault2">
+                                                        <p class="pe-3">Option 2</p>
+                                                    </label>
+                                                </div>
+                                            </div>    
+                                        </div>
+                                        <div class="col-6 pe-5">
+                                            <div class="row">
+                                                <div class="col pt-4">
+                                                    <div class="mb-3">
+                                                        <label for="exampleFormControlInput1" class="form-label">Label</label>
+                                                        <input type="text" class="form-control" id="exampleFormControlInput1">
+                                                    </div>
+                                                    <div class="input-group mb-3">
+                                                        <input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="Select">
+                                                        <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"></button>
+                                                        <ul class="dropdown-menu dropdown-menu-end">
+                                                          <li><a class="dropdown-item" href="#">Action</a></li>
+                                                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                                          <li><hr class="dropdown-divider"></li>
+                                                          <li><a class="dropdown-item" href="#">Separated link</a></li>
+                                                        </ul>
+                                                      </div>
+                                                    <div class="mb-3 pt-4">
+                                                        <label for="exampleFormControlTextarea1" class="form-label">Example Text Area</label>
+                                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Sample Text..."></textarea>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row save-btn-container">
+                                                <div class="col-12 position-relative">
+                                                    <button type="button" class="btn-lg save-btn position-absolute end-0">SAVE</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+    
     
     <script>
 

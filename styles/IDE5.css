@@ -433,3 +433,146 @@ ul, #myUL {
     margin-left: 10px;
 }
 
+.head-card {
+    width: 1200px;
+    height: 120px;
+    margin: 60px 0 18px 0;
+}
+
+.head-body {
+    margin-top: 15px;
+}
+
+.settings-logo {
+    margin-top: -4px;
+    margin-left: 18px;
+}
+
+.bottom-card {
+    width: 1200px;
+    height: 560px;
+}
+
+.left-section {
+    background-color: #EEEEEE;
+}
+
+.left-items {
+    margin: 15px 0 15px 0;
+    font-size: 20px;
+    color: #757575 !important;
+    font-weight: 600 !important;
+}
+
+.last-item {
+    margin-bottom: 86px;
+}
+
+.left-items:hover {
+    background-color: #fff !important;
+    border-left: 3px solid #151233;
+    color: #151233 !important;
+}
+
+.remove-gutterx {
+    --bs-gutter-x: 0 !important;
+}
+
+.card-tabs {
+    display: flex;
+}
+
+.card-tab-items {
+    margin-right: 32px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+}
+  
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2F3160;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2F3160;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+.switch-container {
+    display: flex;
+}
+.switch-text1 {
+    margin-right: 198px;
+}
+.switch-text2 {
+  margin-right: 105px;
+}
+
+.form-check-input:checked {
+    background-color: #2F3160 !important;
+    border-color: #2F3160 !important;
+}
+
+.form-check-input[type=checkbox] {
+    border-radius: 0 !important;
+}
+
+.radio-container {
+    display: flex;
+}
+
+.save-btn {
+    background-color: #2F3160;
+    color: #fff;
+    width: 97px;
+}
+
+.save-btn-container {
+    margin-top: 78px !important;
+}
