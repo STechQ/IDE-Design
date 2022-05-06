@@ -79,6 +79,11 @@ body{
     font-size: 14px;
 }
 
+.tab-settings {
+    font-size: 14px;
+    border-bottom: 2px solid #212121;
+}
+
 .close-icon {
     margin-left: 10px;
 }

@@ -50,7 +50,7 @@
                         <p class="tab-item"><span class="tab-texts"><i class="mdi mdi-code-not-equal-variant icons"></i>Page4.qjson<i class="mdi mdi-close close-icon"></i></span></p>
                         <p class="tab-item"><span class="tab-texts"><i class="mdi mdi-file-tree icons"></i>Atahan_deneme.js<i class="mdi mdi-close close-icon"></i></span></p>
                         <p class="tab-item"><span class="tab-texts"><i class="mdi mdi-file-tree icons"></i>Atahan_process.js<i class="mdi mdi-close close-icon"></i></span></p>
-                        <p class="tab-item"><span class="tab-texts"><i class="mdi mdi-cog icons"></i>Settings<i class="mdi mdi-close close-icon"></i></span></p>
+                        <p class="tab-item settings-tab"><span class="tab-settings"><i class="mdi mdi-cog icons"></i>Settings<i class="mdi mdi-close close-icon"></i></span></p>
                     </div>
                 </div>
             </div>
@@ -319,6 +319,10 @@
         var expandedMenu = document.getElementsByClassName("vertical-nav-expanded")[0];
         var closeMenuIcon = document.getElementsByClassName("chevron-left")[0];
         var expandMenuIcon = document.getElementsByClassName("menu-icon")[0];
+        var settingsMenu = document.getElementsByClassName("middle-section-container")[0];
+        var settingsIcon = document.getElementsByClassName("mdi-cog");
+        var settingsTab = document.getElementsByClassName("settings-tab")[0];
+        var settingsClose = document.getElementsByClassName("close-icon")[5];
 
 
         for(let item of tabItems) {
@@ -348,6 +352,21 @@
         closeMenuIcon.addEventListener("click", () => {
             expandedMenu.style = "display: none";
             initialMenu.style = "display: block";
+        });
+
+        settingsMenu.style = "display: none";
+        settingsTab.style = "display: none";
+
+        for(var i=1; i<settingsIcon.length; i++){
+            settingsIcon[i].addEventListener("click", () => {
+                settingsMenu.style = "display: block";
+                settingsTab.style = "display: block";
+            });
+        }
+
+        settingsClose.addEventListener("click", () => {
+            settingsMenu.style = "display: none";
+            settingsTab.style = "display: none";
         });
 
     </script>
