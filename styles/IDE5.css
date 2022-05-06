@@ -17,11 +17,16 @@ body{
 }
 
 .logo-container {
+    display: flex;
     width: fit-content;
     padding-right: 14px;
-    border-right: 2px solid #DEE1E2;
 }
 
+.vl {
+    width: 1px;
+    height: 53px;
+    border: 1px solid #DEE1E2;
+}
 .menu {
     background-color: #2F3160 !important;
     width: 223px !important;
@@ -76,6 +81,7 @@ body{
 }
 
 .tab-texts {
+    display: flex;
     font-size: 14px;
 }
 
