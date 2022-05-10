@@ -106,6 +106,7 @@ input[type=text], input[type=password] {
     font-weight: normal;
     color: #FFFFFF;
     background-color: #2F3160;
+    border: none !important;
     border-radius: 4px;
 }
 
