@@ -108,3 +108,8 @@ input[type=text], input[type=password] {
     background-color: #2F3160;
     border-radius: 4px;
 }
+
+.form-control:focus {
+    background-color: #EEEEEE !important;
+    box-shadow: none !important;
+ }
