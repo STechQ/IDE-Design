@@ -1,0 +1,305 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ECEFF1 !important;
+}
+
+.top-menu-container {
+    background-color: #fff;
+}
+
+.top-menu {
+    display: flex;
+    align-items: center;
+}
+
+.vl{
+    height: 22px;
+    width: 1px;
+    border: 1px solid #D5D5D5;
+}
+
+.top-logo {
+    border-radius: 50%;
+}
+
+.vertical-dots {
+    color:#616161;
+    margin:0 10px 0 12px;
+    cursor: pointer;
+}
+
+.user {
+    font-size: 40px;
+    color: red;
+}
+
+.top-right-container {
+    display: flex;
+    align-items: center;
+}
+
+/* card section start */
+
+.head-card {
+    width: 1250px;
+    height: 120px;
+    margin: 60px 0 18px 0;
+}
+
+.head-body {
+    margin-top: 15px;
+}
+
+.bottom-card {
+    width: 1250px;
+    height: 723px;
+}
+
+#regForm {
+    background-color: #ffffff;
+    min-width: 300px;
+}
+  
+h1 {
+  text-align: center;  
+}
+
+input {
+  padding: 10px;
+  width: 100%;
+  font-size: 17px;
+  font-family: Raleway;
+  border: 1px solid #aaaaaa;
+}
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+  background-color: #ffdddd;
+}
+
+/* Hide all steps by default: */
+.tab {
+  display: none;
+  margin: 40px 30px 60px 30px;
+}
+  
+.next-btn {
+    background-color: #2F3160;
+    color: #fff;
+    width: 118px;
+    margin-right: 30px;
+}
+
+.previous-btn {
+    background-color: #fff;
+    color: #2F3160;;
+    width: 118px;
+    font-weight: 500;
+    border: none;
+}
+  
+  /* Make circles that indicate the steps of the form: */
+.step {
+  height: 43px;
+  width: 43px;
+  margin: 0 2px;
+  background-color: #2F3160 ;
+  border: none;  
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.5;
+  margin-right: 9px;
+  font-size: 22px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.step.active-for-stepper {
+  opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: #04AA6D;
+}
+
+.line{
+  width: 74px;
+  height: 0px;
+  border: 1px solid #2F3160;
+  margin: 18px 18px 4px 18px;
+}
+
+.stepper-text {
+  color: #2F3160;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.stepper-container {
+  text-align:center; 
+  padding: 40px 20px 40px 30px; 
+  display: flex;
+  align-items: baseline;
+  background-color: #F5F5F5;
+  border-bottom: 1px solid #D5D5D5;
+}
+
+.tree-items {
+  display: flex;
+  color: #757575;
+  border-bottom: 1px solid #E0E0E0;
+  padding-left: 32px;
+}
+
+.tree-items-tabs {
+    display: flex;
+    color: #757575;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+
+.form-check-input:checked {
+    background-color: #2F3160 !important;
+    border-color: #2F3160 !important;
+}
+
+.form-check-input[type=checkbox] {
+    border-radius: 0 !important;
+    height: 14px !important;
+    width: 14px !important;
+}
+
+ul, #myUL {
+    list-style-type: none;
+}
+  
+#myUL {
+    padding: 5px 0 0 0;
+    border: 1px solid #E0E0E0;
+    margin: 0 40px 0 40px;
+    height: 316px;
+    overflow: overlay;
+}
+.caret {
+    cursor: pointer;
+    user-select: none; 
+  }
+  
+  .caret::before {
+    display: inline-block;
+    margin-right: 2px;
+  }
+  
+  .caret-down::before {
+    transform: rotate(90deg);
+  }
+  
+  .nested {
+    display: none;
+    margin-left: -23px;
+    margin-bottom: 5px;
+  }
+  
+  .active {
+    display: block;
+    margin-top: 5px;
+  }
+
+  .active-for-stepper {
+    margin-top: 5px;
+  }
+  
+  .menu-right-icon {
+      color: #BCBCBC;
+      margin-top: 2px;
+  }
+  
+  .inside-folder {
+        margin-left: -300px;
+        margin-top: 38px;
+  }
+
+  .inside-nested{
+    margin-left: -376px;
+    margin-top: 38px;
+  }
+  
+  .tree-text {
+      color: #212121;
+  }
+
+.top-text {
+    display: flex;
+    margin-top: 23px;
+    align-items: center;
+}
+
+.table-container {
+    border: 1px solid #E0E0E0;
+    height: 323px;
+    overflow: overlay;
+}
+
+.first-text {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.expand-color {
+    background-color: #F5F5F5;
+}
+
+.for-version {
+    width: 1123px;
+}
+
+.align-version {
+    margin-left: 836px;
+}
+
+.text {
+    color: #757575;
+}
+
+.tab-3-inside-folder {
+    margin-left: -124px;
+    margin-top: 38px;
+}
+
+.summary-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.summary-tab-title {
+    font-size: 20px;
+    color: #757575;
+}
+
+.module-items-container {
+    background: #F5F5F5;
+}
+
+.summary-icon {
+    font-size: 18px;
+    color: #449DD1;
+}
+
+.module-items{
+    display: flex;
+    border-top: 1px solid #E0E0E0;
+}
+
+.module-container {
+    border: 1px solid #E0E0E0;
+}
+
+
+
+
