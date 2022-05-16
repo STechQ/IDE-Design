@@ -587,3 +587,100 @@ input:checked + .slider:before {
 .save-btn-container {
     margin-top: 78px !important;
 }
+
+.deploy-btns {
+    width: 94% !important;
+    margin: 8px 8px 2px 8px;
+    font-weight: bold !important;
+}
+
+.deploy-loading-button {
+    margin-right: 8px;
+    background-color: #4F537B !important;
+    border: 1px solid #4F537B !important;
+}
+
+.deploy-loading-button:focus{
+    box-shadow: none !important;
+}
+
+.dashboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+svg {
+  width: 68px;
+  height: 68px;
+  margin: 1em;
+}
+
+.bg {
+  fill: none;
+  stroke-width: 4px;
+  stroke: #fff;
+}
+
+[class^="meter-"] {
+  fill: none;
+  stroke-width: 4px;
+  stroke-linecap: round;
+  transform: rotate(90deg);
+  transform-origin: 50% 50%;
+  
+}
+
+.meter-2 {
+  stroke:  #14ADFC;
+  stroke-dasharray: 360;
+  stroke-dashoffset: 270;
+  animation: progress-2 .75s ease-out;
+}
+
+@keyframes progress-2 {
+  from {
+    stroke-dashoffset: 360;
+  }
+  to {
+    stroke-dashoffset: 270;
+  }
+}
+
+.percent {
+  position: absolute;
+  top: 34px;
+  left: 105px;
+  color: #14ADFC;
+  font-weight: 500;
+}
+
+.progress-text{
+  color: #14ADFC;
+  position: absolute;
+  margin-left: 29px;
+  top: 77px;
+}
+
+.progress-btns {
+  margin: 8px 8px 2px 8px;
+}
+
+.menu-deploy {
+  width: 254px;
+  height: 225px;
+  border: 1px solid #000 !important;
+  padding: 2px !important;
+  margin-top: 3px !important;
+}
+
+.popover-body {
+    color: #fff !important;
+    background-color: #4F537B; 
+    border-radius: 4px;
+    width: 208px;
+}
+
+.bs-popover-auto[data-popper-placement^=bottom]>.popover-arrow::after, .bs-popover-bottom>.popover-arrow::after {
+    border-bottom-color: #4F537B !important;
+}
